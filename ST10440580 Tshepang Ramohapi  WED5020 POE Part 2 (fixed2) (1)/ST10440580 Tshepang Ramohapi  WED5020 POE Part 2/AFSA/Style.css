@@ -1,0 +1,391 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+  body{
+    font-family: Poppins;
+  }
+
+h1{
+
+    color:rgb(218, 218, 218);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+   
+    position: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.2s linear forwards;
+ 
+}
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+color:#ffffff;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+    object-fit: cover; 
+  }
+
+  .Sign {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+
+
+
+
+p{
+color:rgb(255, 255, 255);
+font-family: Poppins;
+
+}
+
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+
+
+body {
+background-image: url(BLLLLL.jpeg);
+
+font-family: Poppins;
+
+}
+
+.card-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 100px;
+
+}
+
+.card{
+    width:325px;
+    background-color:#000000;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(29, 226, 68, 0.2);
+    margin: 20px;
+}
+.card img{
+    width: 50%;
+    height:  25%;
+
+}
+
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+font-size: 28px;
+margin-bottom: 8px;
+
+}
+
+.card-content p{
+color: #ffffff;
+font-size: 15px;
+line-height: 1.3;
+}
+
+
+.card-content .btn{
+display: inline-block;
+padding:8px 16px;
+background-color: #1f4847;
+text-decoration: none;
+border-radius: 4px;
+margin-top: 16px;
+color:#ffffff;
+}
+
+
+
+p{
+
+ position: bottom;
+ 
+
+
+
+
+}
+
+.About{
+    margin: 10px 50px;
+
+
+
+}
+
+.About img{
+
+width:230px;
+padding:5px;
+filter: grayscale(100%);
+transition:1s;
+
+
+}
+.About img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1)
+}
+
+
+
+h2{
+
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+   
+color:#ffffff;
+}
+
+
+.navbar {
+color:#ffffff;
+background-color: rgb(90, 90, 90);
+height: 10%;
+width: 100%;
+
+}
+
+
+.navbar a{
+color: rgb(255, 255, 255);
+text-decoration : none;
+padding: 10px;
+
+text-align: right;
+overflow: hidden;
+margin : 0px;
+display: inline-block;
+}
+
+.navbar a:hover{
+padding: 10px;
+    background-color:grey;
+}
+
+
+.img_ww
+{
+    float: right;
+    width: 20%;
+    height: 30%;
+    
+}
+
+.Welcome1{
+
+    margin-top : 10%;
+    max-width: 600px;
+   background-color: #423e3e ;
+}
+
+.Welcome h1{
+
+    font-size: 50px;
+    color: #ffffff;
+    background-color:#423e3e ;
+}
+.banks{
+    filter: blur(3px);
+}
+
+.Welcome1 p{
+
+    margin: 10px 0 30px;
+    color: #ffffff;
+    animation-delay: 0.5s;
+    background-color: #423e3e ;
+}
+
+
+.Welcomeimg{
+    width: 530px;
+    position:static;
+    bottom: 0;
+  right: 20%;
+    animation-delay: 1s;
+   
+}
+.Welcome1 h2{
+
+    background-color: #423e3e ;
+}
+
+.img_www{
+    left: auto;
+  
+
+}
+
+.pos_cen
+{
+
+    position:absolute;
+    width: 100%;
+    left: 15%;
+  
+    background-color:rgb(93, 86, 86) ;
+    padding : 30px;
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+    width: 100%;
+    min-height : 10vh;
+   
+    background-position: center;
+background-size:500px;
+margin: 10px 0 30px;
+overflow:visible;
+
+
+
+width: 530px;
+position:static;
+bottom: 0;
+right: 20%;
+animation-delay: 1s;
+
+
+
+}
+
+.video1
+{
+right: auto;
+opacity: 0;
+transform: translateY(30px);
+animation: moveup 1s linear forwards;
+top: auto;
+}
+
+
+
+
+.Welcome{
+    width: 100%;
+    min-height : 10vh;
+    background-image: url(BLLLLL.jpeg) ;
+    background-position: center;
+background-size:600px;
+
+
+overflow:visible;
+
+
+}
+
+.form{
+
+    font-family: Poppins;
+    color:#ffffff;
+}
+
+.Copyright{
+
+    bottom:100%;
+    
+}
+
+.SUBMITING{
+
+    background-image:url(grey.jpeg);
+}
+
+.anim{
+
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup{
+    100%{
+opacity: 1;
+transform: translateY(0px);
+    }
+}
+
+
+
+
+
+@media  screen and (max-width: 960px)and (orientation: potrait){
+    .navbar {
+       
+        
+    width: 480px;
+    height: 638px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 960px){
+h1{
+
+    font-size: 2rem;
+    
+
+
+
+}
+}
+
+@media  screen and (max-width: 960px){
+
+p{
+
+font-size: 1rem;
+
+}
+}
+
+
+@media only screen and (max-width: 960px){
+
+
+.navbar a{
+    
+  
+  padding-top: 1px;
+    
+  
+    
+  
+    
+}
+}
+
+
+
+
+
+
